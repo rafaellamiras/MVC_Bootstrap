@@ -1,0 +1,17 @@
+@model MVC_Bootstrap.Models.Cerimonia
+@{ ViewData["Title"] = "Nova cerimônia"; }
+<section class="py-5"><div class="container"><div class="row justify-content-center"><div class="col-lg-8 col-xl-7">
+  <div class="text-center mb-4"><p class="eyebrow mb-1">NOVO CADASTRO</p><h1 class="section-title">Planejar uma celebração</h1><p class="text-muted">Informe os dados iniciais do casal.</p></div>
+  <form asp-action="Criar" method="post" class="card border-0 shadow-sm rounded-4"><div class="card-body p-4 p-md-5">
+    <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div><div class="row g-3">
+        <!-- form-contral e form-label são classes do Bootstrap-->
+      <div class="col-md-6"><label asp-for="Noiva" class="form-label"></label><input asp-for="Noiva" class="form-control" /><span asp-validation-for="Noiva" class="text-danger small"></span></div>
+      <div class="col-md-6"><label a
+sp-for="Noivo" class="form-label"></label><input asp-for="Noivo" class="form-control" /><span asp-validation-for="Noivo" class="text-danger small"></span></div>
+      <div class="col-md-6"><label asp-for="Data" class="form-label"></label><input asp-for="Data" class="form-control" /><span asp-validation-for="Data" class="text-danger small"></span></div>
+      <div class="col-md-6"><label asp-for="QuantidadeConvidados" class="form-label"></label><input asp-for="QuantidadeConvidados" class="form-control" /><span asp-validation-for="QuantidadeConvidados" class="text-danger small"></span></div>
+      <div class="col-12"><label asp-for="Local" class="form-label"></label><input asp-for="Local" class="form-control" placeholder="Ex.: Espaço Jardim, São Paulo" /><span asp-validation-for="Local" class="text-danger small"></span></div>
+    </div><div class="d-flex flex-column flex-sm-row gap-2 mt-4"><button class="btn btn-wine" type="submit">Salvar cerimônia</button><a asp-action="Index" class="btn btn-outline-secondary">Cancelar</a></div>
+  </div></form>
+</div></div></div></section>
+@section Scripts { @{ await Html.RenderPartialAsync("_ValidationScriptsPartial"); } }

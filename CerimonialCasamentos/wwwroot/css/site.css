@@ -1,0 +1,49 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.form-floating > .form-control-plaintext::placeholder, .form-floating > .form-control::placeholder {
+  color: var(--bs-secondary-color);
+  text-align: end;
+}
+
+.form-floating > .form-control-plaintext:focus::placeholder, .form-floating > .form-control:focus::placeholder {
+  text-align: start;
+}
+
+:root { --wine: #7b3141; --cream: #fffaf7; --ink: #3f3033; }
+body { background: var(--cream); color: var(--ink); }
+.brand, .section-title, .hero h1 { font-family: Georgia, serif; color: var(--wine); }
+.brand { font-size: 1.6rem; font-weight: 700; }
+.hero { background: linear-gradient(90deg, #f9e7e8, #fffaf7); }
+.hero h1 { color: var(--ink); }
+.hero-image { min-height: 300px; width: 100%; object-fit: cover; }
+.eyebrow { color: var(--wine); font-size: .75rem; font-weight: 700; letter-spacing: .12em; }
+.bg-soft { background: #f8ece7; }
+.btn-wine { background: var(--wine); border-color: var(--wine); color: #fff; }
+.btn-wine:hover { background: #59212d; border-color: #59212d; color: #fff; }
+.btn-outline-wine { border-color: var(--wine); color: var(--wine); }
+.btn-outline-wine:hover { background: var(--wine); color: #fff; }
+.link-wine { color: var(--wine); font-weight: 700; text-decoration: none; }
+.service-card { border-radius: 1rem; transition: transform .2s ease; }
+.service-card:hover, .ceremony-card:hover { transform: translateY(-4px); }
+.service-icon { color: var(--wine); font-size: 2rem; margin-bottom: .75rem; }

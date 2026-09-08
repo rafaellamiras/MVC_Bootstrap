@@ -1,0 +1,37 @@
+﻿@{
+    ViewData["Title"] = "Enlace - Cerimonial de Casamentos";
+}
+
+<section class="hero py-5">
+  <div class="container py-lg-4">
+    <div class="row align-items-center g-4">
+      <div class="col-lg-6 text-center text-lg-start"> <!-- col-lg-6 - propriedade para alinhar o conteúdo em duas metades em desktop e uma coluna em celular-->
+        <p class="eyebrow mb-2">CERIMONIAL DE CASAMENTOS</p>
+        <h1 class="display-5 fw-semibold mb-3">Cerimônias que encantam a sua história</h1>
+        <p class="lead mb-4">Cuidamos de cada detalhe para que vocês vivam um dia leve, bonito e inesquecível.</p>
+        <a class="btn btn-wine btn-lg px-4" asp-controller="Cerimonias" asp-action="Criar">Agendar conversa</a>
+      </div>
+      <div class="col-lg-6">
+        <img class="img-fluid rounded-4 shadow hero-image" src="https://centernoivas.com.br/wp-content/uploads/2023/02/cerimonias-de-casamento.png" alt="Casal em cerimônia de casamento" />
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="servicos" class="py-5">
+  <div class="container">
+    <div class="text-center mb-4"><p class="eyebrow mb-1">NOSSA EXPERIÊNCIA</p><h2 class="section-title">Nossos serviços</h2></div>
+    <div class="row g-4">
+      <div class="col-md-4"><article class="card service-card h-100 border-0 shadow-sm"><div class="card-body p-4"><div class="service-icon">♡</div><h3 class="h4">Cerimônia civil</h3><p class="mb-0">Orientação para cada etapa deste momento especial.</p></div></article></div>
+      <div class="col-md-4"><article class="card service-card h-100 border-0 shadow-sm"><div class="card-body p-4"><div class="service-icon">✦</div><h3 class="h4">Mestre de cerimônias</h3><p class="mb-0">Celebração conduzida com sensibilidade e organização.</p></div></article></div>
+      <div class="col-md-4"><article class="card service-card h-100 border-0 shadow-sm"><div class="card-body p-4"><div class="service-icon">⌁</div><h3 class="h4">Assessoria completa</h3><p class="mb-0">Planejamento para o casal aproveitar cada instante.</p></div></article></div>
+    </div>
+  </div>
+</section>
+
+<section id="sobre" class="py-5 bg-soft">
+  <div class="container"><div class="row g-4 align-items-center">
+    <div class="col-lg-6 order-lg-2"><img class="img-fluid rounded-4 shadow" src="https://images.unsplash.com/photo-1511285560929-80b456fea0bc?auto=format&fit=crop&w=1000&q=80" alt="Equipe celebrando casamento" /></div>
+    <div class="col-lg-6 order-lg-1"><p class="eyebrow mb-2">SOBRE NÓS</p><h2 class="section-title">Detalhes pensados com afeto</h2><p>Transformamos sonhos em celebrações autênticas, com planejamento, acolhimento e atenção ao que torna cada casal único.</p><a class="link-wine" asp-controller="Cerimonias" asp-action="Index">Ver cerimônias cadastradas →</a></div>
+  </div></div>
+</section>
