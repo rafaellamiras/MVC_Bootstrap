@@ -94,4 +94,5 @@
 /Users/DS1/Documents/EXEMPLO_MVC_BOOTSTRAP/MVC_Bootstrap/CerimonialCasamentos/obj/Debug/net10.0/CerimonialCasamentos.pdb
 /Users/DS1/Documents/EXEMPLO_MVC_BOOTSTRAP/MVC_Bootstrap/CerimonialCasamentos/obj/Debug/net10.0/CerimonialCasamentos.genruntimeconfig.cache
 /Users/DS1/Documents/EXEMPLO_MVC_BOOTSTRAP/MVC_Bootstrap/CerimonialCasamentos/obj/Debug/net10.0/ref/CerimonialCasamentos.dll
-/Users/DS1/Documents/EXEMPLO_MVC_BOOTSTRAP/MVC_Bootstrap/CerimonialCasamentos/obj/Debug/net10.0/compressed/0l427rp4g5-{0}-7f7w0ailjh-7f7w0ailjh.gz
+/Users/DS1/Documents/EXEMPLO_MVC_BOOTSTRAP/MVC_Bootstrap/CerimonialCasamentos/obj/Debug/net10.0/CerimonialCasamentos.sourcelink.json
+/Users/DS1/Documents/EXEMPLO_MVC_BOOTSTRAP/MVC_Bootstrap/CerimonialCasamentos/obj/Debug/net10.0/compressed/0l427rp4g5-{0}-9k1wnq4opv-9k1wnq4opv.gz

@@ -7,7 +7,7 @@ public class Cerimonia
 {
     public int Id {get;set;}
 
-    [Required(ErrorMessage = "O campo Noiva não é obrigatório")] // Propriedade  de validação para campo Noiva
+    [Required(ErrorMessage = "O campo Noiva é obrigatório")] // Propriedade  de validação para campo Noiva
     public string? Noiva {get;set;}
 
     [Required(ErrorMessage = "O campo Noivo é obrigatório")] // Propriedade  de validação para campo Noivo

@@ -47,3 +47,257 @@ body { background: var(--cream); color: var(--ink); }
 .service-card { border-radius: 1rem; transition: transform .2s ease; }
 .service-card:hover, .ceremony-card:hover { transform: translateY(-4px); }
 .service-icon { color: var(--wine); font-size: 2rem; margin-bottom: .75rem; }
+
+
+.hero-editorial {
+    position: relative;
+    min-height: 750px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero-image {
+
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    z-index: 1;
+}
+.hero-conteudo {
+    position: relative;
+    z-index: 2;
+    color: white;
+    
+}
+.hero-conteudo a{
+  border-radius: 15px;
+}
+.hero-editorial h1 {
+
+    font-family: Georgia, serif;
+    font-size: 100px;
+    line-height: 0.85;
+    letter-spacing: -4px;
+    margin-bottom: 35px;
+    text-shadow: 0 5px 20px rgba(0, 0, 0, 0.25);
+
+}
+.hero-editorial h1 span {
+    display: block;
+    font-style: italic;
+    font-weight: normal;
+    color: #F3C8CE;
+}
+
+.hero-editorial h1 strong {
+
+    display: block;
+
+    color: white;
+
+}
+
+.hero-descricao {
+    font-size: 1.2rem;
+    max-width: 600px;
+    margin:
+        0 auto
+        35px;
+    line-height: 1.7;
+}
+
+.btn-enlace {
+    background-color: #A84A55;
+    color: white;
+    border: none;
+    border-radius: 0;
+    padding: 14px 32px;
+    transition: 0.3s;
+}
+
+.servicos-editoral{
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.servicos-editoral h3{
+  background-color: #f4c0c0;
+  padding: 15px;
+  border-radius: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.servicos-editoral p{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.sobre-editorial {
+    position: relative;
+    min-height: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sobre-imagem {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.sobre-conteudo {
+    position: relative;
+    z-index: 2;
+    color: white;
+}
+
+.sobre-conteudo h2 {
+    font-family: Georgia, serif;
+    font-size: 55px;
+    letter-spacing: -3px;
+    margin-bottom: 30px;
+}
+
+.sobre-conteudo h2 span {
+    display: block;
+    font-style: italic;
+    font-weight: normal;
+    color: #F3C8CE;
+}
+
+.sobre-botao-wrapper a{
+    margin: 45px 25px;
+margin-left: 40%;    
+border-radius: 10px;
+}
+
+.descrição{
+max-width: 800px;
+    margin: 30px auto 0;
+    padding: 55px 65px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 260'%3E%3Cpath fill='%23f8ece7' stroke='%23e3c2c2' stroke-width='1.5' d='M60,40 Q40,15 65,10 Q90,-5 115,10 Q140,-8 165,8 Q190,-8 215,8 Q240,-8 265,8 Q290,-8 315,8 Q340,-8 365,8 Q390,-8 415,8 Q440,-8 465,8 Q490,-8 515,8 Q540,-8 565,8 Q590,-8 615,8 Q640,-8 665,8 Q690,-5 715,10 Q740,15 720,40 Q745,60 725,80 Q750,100 725,120 Q750,140 725,160 Q750,180 725,200 Q745,220 720,225 Q740,250 715,245 Q690,265 665,247 Q640,265 615,247 Q590,265 565,247 Q540,265 515,247 Q490,265 465,247 Q440,265 415,247 Q390,265 365,247 Q340,265 315,247 Q290,265 265,247 Q240,265 215,247 Q190,265 165,247 Q140,265 115,247 Q90,265 65,245 Q40,250 60,225 Q35,220 55,200 Q30,180 55,160 Q30,140 55,120 Q30,100 55,80 Q35,60 60,40 Z'/%3E%3C/svg%3E");
+}
+
+ @media (max-width: 767.98px){
+    .hero-depoimentos{
+      height: 220px;
+    }
+  }
+
+  
+.img{
+width: 80%;
+height: 400px;
+display: block;
+text-align: center;
+}
+
+.depoimentos{
+  background:#f9e7e8;
+  border-radius: 20px;
+}
+
+.depoimentos h2{
+  font-size: 30px;
+  color: #933742;
+  margin-top: 25px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.depoimento-avatar{
+  width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1.25rem;
+}
+
+.nome{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.texto{
+  font-size: 15px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.depoimentos {
+    padding: 80px 0;
+}
+
+.titulo {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+/* Card centralizado */
+.card-depoimento {
+    text-align: center;
+    padding: 20px;
+    transition: 0.3s;
+}
+
+/* Primeiro depoimento - mais abaixo */
+.card-depoimento:nth-child(1) {
+    transform: translateY(60px);
+}
+
+/* Segundo depoimento - posição normal */
+.card-depoimento:nth-child(2) {
+    transform: translateY(0);
+}
+
+/* Terceiro depoimento - mais abaixo ainda */
+.card-depoimento:nth-child(3) {
+    transform: translateY(100px);
+}
+
+/* Fotos */
+.depoimento-avatar {
+    width: 180px;
+    height: 180px;
+
+    border-radius: 50%;
+
+    object-fit: cover;
+
+    margin-bottom: 15px;
+
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Nome */
+.nome {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+/* Texto */
+.texto {
+    font-size: 16px;
+    color: #666;
+}
+
+
+/* Responsividade */
+@media (max-width: 768px) {
+
+    .card-depoimento:nth-child(1),
+    .card-depoimento:nth-child(2),
+    .card-depoimento:nth-child(3) {
+
+        transform: translateY(0);
+
+    }
+
+}
